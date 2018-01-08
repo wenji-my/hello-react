@@ -22,7 +22,7 @@ const Header = (props) => {
             <div className={"container"}>
                 <div className={"row"}>
                     <div className={"col-xs-11 col-xs-offset-11"}>
-                        <h1>Header</h1>
+                        <h1>{props.headerLink}</h1>
                     </div>
                 </div>
             </div>
